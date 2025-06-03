@@ -1,0 +1,10 @@
+<CameraLayout>:
+    orientation: 'vertical'
+    Image:
+        id: camera_view
+        allow_stretch: True
+        keep_ratio: True
+    Button:
+        text: '📸 Зробити фото'
+        size_hint_y: 0.2
+        on_press: root.capture_image()
